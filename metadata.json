@@ -1,0 +1,7 @@
+{
+  "name": "LingoPad AI: Myanmar Writing Practice",
+  "description": "An AI-powered writing practice app for Myanmar people to learn new languages. It provides personalized feedback and corrections with an encouraging, non-binary anime theme.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
