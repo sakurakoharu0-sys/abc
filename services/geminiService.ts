@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import type { WritingFeedback, WritingPrompt, TranslationExercise, VocabularyItem, GrammarRule, GrammarExercise, ReadingPassage, ListeningExercise, Lesson, KnowledgeArticle } from '../types';
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+const ai = new GoogleGenAI({ apiKey: "AIzaSyBRe_pITrXyP15Mnf68spKow0xnseQ-BjQ" }); 
 
 const getLevelDescription = (levelName: string) => {
     const levelMap: { [key: string]: string } = {
